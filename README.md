@@ -39,6 +39,10 @@ e) [Mark duplicates- (Also so GATK doesn't freak out)](https://gatk.broadinstitu
 ### 3) CALL VARIANTS
 
 We are going to use GATK's HaplotypeCaller to accomplish this. We'll also try to stick to GATK's [Best Practices](https://evodify.com/gatk-in-non-model-organism/)
-The Terrapin_GATK_Array_1.0.sh and Terrapin_GATK_Array_1.0.sh scripts accomplish this. 1.0 generates the .gvcfs, and 2.0 generates .vcfs from the .gvcfs
+The Terrapin_GATK_Array_Step1.sh and Terrapin_GATK_Array_Step2.sh scripts accomplish this. 1.0 generates the .gvcfs, and 2.0 generates .vcfs from the .gvcfs
+
+### 4) Recalibrate Base Quality Scores (Round 1)
+
+### 5) Recalibrate again (and again)
 
 
