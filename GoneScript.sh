@@ -14,7 +14,7 @@ cp -r ../tools/GONE/Linux/* .
 ## needs the data to be in the same directory, we copy the data files into the
 ## working directory.
 
-for CASE in pop_constant pop_recent pop_ancient pop_migration pop_increase; do
+for CASE in pop_increase pop_constant pop_recent_decline pop_ancient_decline pop_admixture; do
 
   cp ../simulation/${CASE}.* .
 
