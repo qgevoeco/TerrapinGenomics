@@ -45,4 +45,9 @@ The Terrapin_GATK_Array_Step1.sh and Terrapin_GATK_Array_Step2.sh scripts accomp
 
 ### 5) Recalibrate again (and again)
 
+### 6) Generate genome-wide summary statistics using the R PopGenome package
+
+### 7) Conduct demographic analyses using GADMA (SFS-based, longer time scale) and GONE (recombination-based, best for inference in last 200 generations)
+
+
 
